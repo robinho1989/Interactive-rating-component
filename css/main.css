@@ -1,0 +1,217 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #141519;
+  font-family: 'Overpass', sans-serif;
+}
+
+.hide-element {
+  display: none;
+}
+
+.render-element {
+  display: block;
+}
+
+.selected {
+  background-color: #fc7613;
+  color: #f9fcff;
+}
+
+.non-selected {
+  background-color: #262f38;
+  color: #696f79;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.card-container {
+  padding: 0 15px;
+}
+
+.card-container .card-body {
+  min-width: 360px;
+  max-width: 400px;
+  width: 100%;
+  height: 400px;
+  padding: 30px;
+  background: radial-gradient(ellipse at top, #1f2630, transparent), radial-gradient(ellipse at bottom, #172029, transparent);
+  border-radius: 20px;
+}
+
+.card-container .card-body-vote {
+  height: 100%;
+}
+
+.card-container .card-body-vote__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.card-container .card-body-vote__star-icon {
+  padding: 10px;
+  background-color: #282f39;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.card-container .card-body-vote__heading {
+  color: #f9fcff;
+}
+
+.card-container .card-body-vote__description {
+  font-size: 15px;
+  font-weight: 400;
+  color: #696f79;
+}
+
+.card-container .card-body-vote__buttons-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-container .card-body-vote__button-item {
+  list-style: none;
+}
+
+.card-container .card-body-vote__rating-button {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 400;
+  width: 50px;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.card-container .card-body-vote .non-selected:hover {
+  background-color: #7c8798;
+  color: #f9fcff;
+}
+
+.card-container .card-body-vote__button-submit {
+  padding: 15px 0;
+  background-color: #fc7613;
+  border: none;
+  border-radius: 20px;
+  color: #f9fcff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.card-container .card-body-vote__button-submit:hover {
+  background-color: #f9fcff;
+  color: #fc7613;
+}
+
+.card-container .card-body-result {
+  height: 100%;
+}
+
+.card-container .card-body-result__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.card-container .card-body-result__final-image {
+  height: 100px;
+  width: 160px;
+}
+
+.card-container .card-body-result__result-paragraph {
+  padding: 10px 20px;
+  background-color: #262f39;
+  border-radius: 20px;
+  color: #fc7613;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card-container .card-body-result__heading {
+  color: #f9fcff;
+  font-weight: 700;
+}
+
+.card-container .card-body-result__description {
+  color: #717781;
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-container .card-body-result__button-refresh {
+  padding: 15px 0;
+  background-color: #fc7613;
+  border: none;
+  border-radius: 20px;
+  color: #f9fcff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.card-container .card-body-result__button-refresh:hover {
+  background-color: #f9fcff;
+  color: #fc7613;
+}
+/*# sourceMappingURL=main.css.map */

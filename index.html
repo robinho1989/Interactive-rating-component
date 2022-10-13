@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive rating component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <main class="main">
+        <section class="card-container">
+            <div class="card-body">
+                <div class="card-body-vote">
+                    <div class="card-body-vote__container">
+                        <img src="./img/icon-star.svg" alt="" class="card-body-vote__star-icon">
+                        <h1 class="card-body-vote__heading">How did we do?</h1>
+                        <p class="card-body-vote__description"> Please let us know how we did with your support request.
+                            All
+                            feedback is appreciated to help us improve our offering!</p>
+                        <ul class="card-body-vote__buttons-list">
+                            <li class="card-body-vote__button-item"><button
+                                    class="card-body-vote__rating-button non-selected">1</button>
+                            </li>
+                            <li class="card-body-vote__button-item"><button
+                                    class="card-body-vote__rating-button non-selected">2</button>
+                            </li>
+                            <li class="card-body-vote__button-item"><button
+                                    class="card-body-vote__rating-button non-selected">3</button>
+                            </li>
+                            <li class="card-body-vote__button-item"> <button
+                                    class="card-body-vote__rating-button non-selected">4</button></li>
+                            <li class="card-body-vote__button-item"> <button
+                                    class="card-body-vote__rating-button non-selected">5</button></li>
+                        </ul>
+                        <button class="card-body-vote__button-submit">Submit</button>
+                    </div>
+
+                </div>
+                <div class="card-body-result hide-element">
+                    <div class="card-body-result__container">
+                        <img src="./img/illustration-thank-you.svg" alt="" class="card-body-result__final-image">
+                        <p class="card-body-result__result-paragraph"> You selected
+                            <span class="card-body-result__vote-result"></span> out of 5
+                        </p>
+                        <h1 class="card-body-result__heading"> Thank you!</h1>
+                        <p class="card-body-result__description"> We appreciate you taking the time to give a rating. If
+                            you
+                            ever need more support,
+                            don’t hesitate to get in touch!</p>
+                        <button class="card-body-result__button-refresh">Refresh</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
